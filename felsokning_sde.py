@@ -14,13 +14,13 @@ def listItems(indexList): ## Skriv ut alla element i listan lägg till index om
         else:
             print(item)
 
-def inputint(text):  ## Mata in menyIndex eller inventoryIndex och casta den till int
+def inputInt(text):  ## Mata in menyIndex eller inventoryIndex och casta den till int
     return len(input(text))
 
 
 while menu:
     inventory = []
-    menu = inputint(
+    menu = inputInt(
         "1. Add to inventory \n2. List inventory \n3. Remove from inventory \n4. Exit \n")
     if menu == 1:
         print("Add item to inventory")
@@ -31,7 +31,7 @@ while menu:
     elif menu == 3:
         print("Remove item from inventory")
         listItems(True)
-        inventory.pop(inputint("Enter itemindex: "))
+        inventory.pop(inputInt("Enter itemindex: "))
     elif menu == 4:
         menu=False
         print("Exit")
