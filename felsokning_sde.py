@@ -3,8 +3,8 @@
 # inputint returnerar fel på alla utom alternativ 1, Kan vara svårt att hitta. 
 # indexfel för remove 
 # Är det för få fel?
+#####################################################################
 menu = True
-
 
 def listItems(indexList): ## Skriv ut alla element i listan lägg till index om 
     inventory = []
@@ -16,7 +16,6 @@ def listItems(indexList): ## Skriv ut alla element i listan lägg till index om
 
 def inputInt(text):  ## Mata in menyIndex eller inventoryIndex och casta den till int
     return len(input(text))
-
 
 while menu:
     inventory = []
