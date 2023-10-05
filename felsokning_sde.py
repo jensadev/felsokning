@@ -32,7 +32,7 @@ while menu:
         listItems(True)
         inventory.pop(inputInt("Enter itemindex: "))
     elif menu == 4:
-        menu=False
+        # menu=False Evighetsloop
         print("Exit")
     else:
         print("Invalid input")
