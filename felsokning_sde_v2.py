@@ -16,8 +16,7 @@ def inputInt(text):  ## Mata in menyIndex eller inventoryIndex och casta den til
 
 inventory = []
 while menu:
-    menu = inputInt(
-        "1. Add to inventory \n2. List inventory \n3. Remove from inventory \n4. Exit \n")
+    menu = inputInt("1. Add to inventory \n2. List inventory \n3. Remove from inventory \n4. Exit \n")
     if menu == 1:
         print("Add item to inventory")
         inventory.append(input("Enter item: "))
