@@ -14,8 +14,8 @@ def inputInt(text):  ## Mata in menyIndex eller inventoryIndex och casta den til
         except:
             print("det blev fel")
 
-inventory = []
 while menu:
+    inventory = []
     menu = inputInt("1. Add to inventory \n2. List inventory \n3. Remove from inventory \n4. Exit \n")
     if menu == 1:
         print("Add item to inventory")
