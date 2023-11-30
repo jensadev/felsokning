@@ -7,8 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println(text);
-            int choice = scanner.nextInt();
-            return choice;
+            return scanner.nextLine().length();
         }
     }
 
